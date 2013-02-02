@@ -1,0 +1,442 @@
+/* Palette color codes */
+/* Palette URL: http://colorschemedesigner.com/#3we1Mw0w0w0w0 */
+/* Not using the secondary a color, to archetypally blue for my tastes */
+
+.primary-1 { background-color: #006699 }
+.primary-2 { background-color: #336666 }
+.primary-3 { background-color: #003366 }
+.primary-4 { background-color: #3399CC }
+.primary-5 { background-color: #6699CC }
+
+.secondary-a-1 { background-color: #003399 }
+.secondary-a-2 { background-color: #333399 }
+.secondary-a-3 { background-color: #003366 }
+.secondary-a-4 { background-color: #3366CC }
+.secondary-a-5 { background-color: #6699CC }
+
+.secondary-b-1 { background-color: #009966 }
+.secondary-b-2 { background-color: #336666 }
+.secondary-b-3 { background-color: #006666 }
+.secondary-b-4 { background-color: #33CC99 }
+.secondary-b-5 { background-color: #66CCCC }
+
+.complement-1 { background-color: #FF9900 }
+.complement-2 { background-color: #CC9933 }
+.complement-3 { background-color: #996600 }
+.complement-4 { background-color: #FF9933 }
+.complement-5 { background-color: #FFCC66 }
+
+/* end Palette color codes */
+
+
+
+/* From base, supersedes */
+
+
+
+/* #Typography
+================================================== */
+	h1, h2, h3, h4, h5, h6 {
+		color: #181818;
+		font-family: Azuro; /*, "Georgia", "Times New Roman", Helvetica, Arial, sans-serif; */
+		font-weight: normal; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { color: #181818; font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+	h2 { color: #009966; font-size: 35px; line-height: 40px; margin-bottom: 10px;}
+	h3 { color: #006699; font-size: 21px; line-height: 30px; margin-bottom: 8px; font-weight: bold; }
+	h4 { color: #009966; font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { color: #006699; font-size: 14px; line-height: 21px;  font-weight: bold;}
+	h6 { color: #009966; font-size: 14px; line-height: 21px; }
+	.subheader { color: #777; }
+
+	p { margin: 0 0 20px 0; }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	em { font-style: italic; }
+	strong { font-weight: bold; color: #009966; }
+	small { font-size: 80%; }
+
+/*	Blockquotes  */
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #666; font-style: italic; }
+	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 2px solid #009966; }
+	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+
+/* #Links
+================================================== */
+	a, a:visited { color: #006699; text-decoration: none; outline: 0; }
+	a:hover, a:focus { color: #003366; }
+	p a, p a:visited { line-height: inherit; }
+
+
+/* #Lists
+================================================== */
+	ul, ol { margin-bottom: 10px; }
+	ul { list-style: none outside; }
+	ol { list-style: decimal; }
+	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+	ul.square { list-style: square outside; }
+	ul.circle { list-style: circle outside; }
+	ul.disc { list-style: disc outside; }
+	ul ul, ul ol,
+	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+	ul ul li, ul ol li,
+	ol ol li, ol ul li { margin-bottom: 6px; }
+	li { line-height: 18px; margin-bottom: 12px; }
+	ul.large li { line-height: 21px; }
+	li p { line-height: 21px; }
+
+/* end base changing */
+
+
+
+
+
+html, body {
+  background-image: url("../images/diagonal-noisejk.png");
+}
+ img {
+      margin-right: 10px;
+      padding: 5px;
+      float: left;
+}
+
+a.cite {
+  text-decoration: none;
+  /* border-bottom: 1px DASHED #AAA; */
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.conf p{
+    margin-bottom: 10px;
+}
+
+.conf .alignRight{
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.footer {
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  
+  border-top: solid #FF9900 1px;
+  padding: 5px;
+  font-size: 12px;
+  line-height: 14px;
+}
+.footer p{
+    margin:0;
+}
+
+div.container {
+    padding-top: 40px; }
+
+div.item {
+    clear: both;
+    padding-top: 20px;
+}
+
+/* Doc nav */
+nav {
+    position: fixed;
+    width: 160px; }
+nav img {
+    width: 160px;
+    margin: 20px 0 20px 0;
+    padding: 0;
+}
+
+nav img#jon {
+    margin: 0 0 20px 0;
+}
+
+nav ul {
+    float: left;  }
+nav ul li {
+    display: block;
+    margin-bottom: 15px; }
+nav ul li a,
+nav ul li a:visited,
+nav ul li a:active  {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold; }
+nav ul li a:hover,
+nav ul li a:focus {}
+
+nav ul#external {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+}
+
+nav ul#external li {
+    height: 30px;
+    padding: 0 0;
+    margin: 0 0 5px 0; 
+}
+nav ul#external li a,
+nav ul#external li a:visited,
+nav ul#external li a:active {
+    display: block;
+    text-decoration: none;
+    height: 29px;
+    padding: 0px 20px;
+    line-height: 30px;
+    margin: 0;
+    background: #767676;
+    color: #EEE;
+}
+nav ul#external li a:hover,
+nav ul#external li a:focus {
+    background: #006699;
+    color: #EEE;
+}
+
+header img#mark {
+    float: right;
+    margin: 3px 0 0 0;
+}
+
+header h1 {
+    font-size: 52px;
+    line-height: 61px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+hr.large {
+    border: none;
+    height: 6px;
+    margin: 10px 0 20px 0; }
+
+hr.small {
+    border: none;
+    height: 2px;
+    margin: 20px 0 0 0; }
+
+hr {
+    border: none;
+    height: 4px;
+    background: #FF9900;
+    margin: 10px 0 0 0; }
+div.doc-section {
+    margin: 5px 0px 30px 0px; }
+
+
+sc {
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
+
+video {
+      margin-right: 10px;
+      padding: 5px;
+      float: left;
+}
+
+/* added for vita site */
+
+
+p.abstract {margin-top: 1em}
+
+pre, code {
+  font-family: 'Inconsolata', monospace;
+  background-color: #eee;
+  color: #000;
+}
+
+pre {
+  border: 1px solid #ccc;
+  padding: 5px; 
+  line-height: 1.4em;
+  margin: 0.75em 0 0.75em 0;
+  overflow: hidden;
+}
+
+header p {
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 21px;
+}
+
+.article .citation {margin-top: 0em;}
+
+div.citation {margin-top: 1em;}
+.citation ul {list-style: none;}
+.citation img {float: left; }
+.citation .title {font-weight: bold}
+.citation li {line-height: 18px; margin-bottom: 2px; }
+.citation ul {margin-bottom: 0}
+.citation .note {font-size: 90%}
+
+/***
+.sidebar { padding-top: 1em}
+.sidebar ul {list-style: inside disc; margin-bottom: 1em;}
+.sidebar li {display: inline;}
+.sidebar h3 {font-size: 1.5em;}
+
+.sidebar li:before {
+	content: "• ";
+	}
+
+***/
+
+/* Anything smaller than standard 960 */
+@media only screen and (max-width: 959px) {
+    
+    nav {
+	width: 124px; }
+    nav img {
+	width: 124px;}
+    
+    nav ul li {
+	margin-bottom: 10px; 
+    }
+    
+    nav ul li a,
+    nav ul li a:visited,
+    nav ul li a:active {
+	font-size: 15px;
+    }
+
+    nav ul#external {
+	width: 124px;
+    }
+
+    .sidebar h3 { 
+	font-size: 18px; line-height: 22px; 
+    }
+
+}
+
+/* Mobile (portrait) */
+@media only screen and (max-width: 767px) {
+    div.container {
+	padding-top: 0px; }
+    
+    header {
+	margin-top: 10px;
+    }
+    
+    header h1 { 
+	font-size: 34px; line-height: 37px; 
+    }
+    
+    header img#mark {
+	height: 23px;
+	margin: -1px 0 0 0;
+    }
+
+    nav { position: relative; }
+    nav h4,
+    nav img#jon,
+    nav img#html5 {
+	display: none;
+    }
+    nav ul#mainnav {
+	display: block;
+	margin: 0 0 0 0;
+	padding: 0;
+	width: 420px;
+    }
+
+    nav ul#external {
+	margin: 10px 0 0 0;
+	width: 420px;
+    }
+
+    nav ul#mainnav li {
+		display: inline;
+		width: auto;
+		height: 30px;
+		padding: 0 6px;
+		float: left;
+		margin-bottom: 0; }
+    nav ul#mainnav li a {
+		display: block;
+		text-decoration: none;
+		width: auto;
+		height: 29px;
+		padding: 0px 20px;
+		line-height: 30px;
+		margin: 0;
+		background: #ddd;
+		font-size: 13px; }
+
+    nav ul#mainnav {
+	width: 300px;
+    }
+
+    nav ul#external {
+	width: 300px;
+    }
+
+nav ul#mainnav li a {
+	padding: 0 5px;
+    }
+
+}
+
+
+
+/* Mobile Landscape */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    nav ul#mainnav {
+	width: 420px;
+    }
+
+    nav ul#external {
+	width: 420px;
+    }
+
+nav ul#mainnav li a {
+	padding: 0 20px;
+    }
+
+}
+
+/* Non 960 */
+@media only screen and (max-width: 959px) {
+    #logo {
+	font-size: 21px;
+	margin-bottom: 15px; }
+    nav .button {
+	padding: 9px 20px 11px; }
+}
+
+/* iPad Portrait/Browser */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+/* Mobile/Browser */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape/Browser */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* iPad Portrait Only */
+@media only screen and (min-width: 768px) and (max-width: 959px) and (max-device-width: 1000px) {}
+
+/* Mobile Only */
+@media only screen and (max-width: 767px) and (max-device-width: 1000px) {}
+
+/* Mobile Landscape Only */
+@media only screen and (min-width: 480px) and (max-width: 767px) and (max-device-width: 1000px) {}
+
+/* Anything smaller than standard 960 on a device */
+@media only screen and (max-width: 959px) and (max-device-width: 1000px) {}
+
+
