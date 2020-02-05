@@ -1,1 +1,1 @@
-These pages can be found at: http://jonkeane.com/ASLVerbalMorphology/
+These pages can be found at: http://jonkeane.github.io/ASLVerbalMorphology/
